@@ -62,3 +62,15 @@ void main() {
   
   var resultado = nota >= 7 ? "Aprovado" : "Reprovado";
   print(resultado);
+
+outro exemplo
+
+var map = {
+  "info" : "mobile, web, java",
+  "log" : "trans, controle, inventario",
+  "adm" : "cafe1, cafe2, cafe3"
+};
+  print(map["info"]);
+  print(map["log"]);
+  print(map["adm"]);
+
