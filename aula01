@@ -1,0 +1,44 @@
+void main() {
+  print("Hello word"); 
+  print(1  + 1); 
+  print(-(-23));
+  print(9 * 8);
+  print(11 / 2);
+  print(11 ~/ 2);
+  print(7 % 3);
+
+  
+  num a = 4; // pode ser inteiro ou double
+  print(a); // -> 4
+  
+  a += 5; // -> 9
+  print(a);
+  
+  a -= 4; // -> 5
+  print(a);
+  
+  a %= 2;
+  print(a);
+  
+  a *= 5;
+  print(a);
+  
+  a /= 5;
+  print(a);
+  
+  a ~/= 2;
+  print(a);
+  
+  print("-------------------");
+
+  num x = 4;
+  num y = 7;
+  
+  x = y + x;
+  y = x - y;
+  x -= y;
+  
+  
+  print(x); 
+  print(y);
+}
