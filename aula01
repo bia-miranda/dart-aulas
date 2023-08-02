@@ -48,6 +48,17 @@ void main() {
   
   num nota = 9;
   print(nota >= 7 ? "Aprovado" : "Reprovado");
+
+--------------------------------------------------------------------------
+  final map = {
+  'vogais' : 'a,e,i,o,u',
+  'consoantes' : 'b,c,d,f,...',
+};
+  final vogais = ['a','e','i','o','u'];
+  print(vogais[0]); // > a
+  print(vogais[4]); // > u
+  print(map['vogais']); // > a, e, i, o, u
+  print(map['consoantes']);
   
   var resultado = nota >= 7 ? "Aprovado" : "Reprovado";
   print(resultado);
