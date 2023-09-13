@@ -26,3 +26,23 @@
   for(int i = 0; i < nomeSep.length; i++){
     print("${i + 1} Nome: ${nomeSep[i]}");
   }
+
+//---------------------------------
+String jogo = "Corinthians-Santos-2-0";
+  var colunas = jogo.split("-");
+    var timeCasa = colunas[0];
+    var timeFora = colunas[1];
+
+    var golsCasa = int.parse(colunas[2]);
+    var golsFora = int.parse(colunas[3]);
+  
+  if(golsCasa > golsFora){
+    print("Vencedor: $timeCasa");
+  }
+  else if(golsFora > golsCasa){
+     print("Vencedor: $timeFora");
+  }
+   else{
+     print("Empate");
+  }
+  
