@@ -20,3 +20,4 @@
     }
   }
   
+//so funciona para variaveis locais
