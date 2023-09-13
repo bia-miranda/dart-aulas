@@ -1,8 +1,7 @@
-   //static nao muda entre as instancias
+  //static nao muda entre as instancias. os atributos sao acessados direto pela classe
   
   Conta conta = Conta();
-  Conta.totalContas += 1;
-  
+
   print("Total de contas: ${Conta.totalContas}");
   
 }
@@ -12,3 +11,7 @@ class Conta{
   double? saldo;
   
   static int totalContas = 0;
+  
+  Conta(){
+     Conta.totalContas += 1;
+  }
